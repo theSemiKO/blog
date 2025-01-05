@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SemiKO - Kişisel Sayfa</title>
+    <style>
+        /* Genel Stil */
+        body {
+            font-family: 'Poppins', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #121212;
+            color: white;
+        }
+        header {
+            text-align: center;
+            padding: 2rem;
+            background: linear-gradient(135deg, #e63946, #f4a261);
+            color: white;
+        }
+        header img {
+            max-width: 150px;
+            margin-bottom: 1rem;
+        }
+        header h1 {
+            font-size: 2.5rem;
+            margin: 0.5rem 0;
+        }
+        header p {
+            font-size: 1.2rem;
+            margin: 0;
+        }
+        nav {
+            background: #1d3557;
+            padding: 1rem;
+            text-align: center;
+        }
+        nav a {
+            margin: 0 1rem;
+            text-decoration: none;
+            color: white;
+            font-size: 1.2rem;
+            padding: 0.5rem 1rem;
+            border-radius: 5px;
+            transition: all 0.3s ease;
+        }
+        nav a:hover {
+            background-color: #f4a261;
+            color: #1d3557;
+        }
+        .content {
+            padding: 2rem;
+            text-align: center;
+        }
+        .content h2 {
+            font-size: 2rem;
+            color: #f4a261;
+            margin-bottom: 1rem;
+        }
+        .social-media {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            margin: 2rem 0;
+        }
+        .social-media a {
+            text-decoration: none;
+            color: white;
+            transition: transform 0.3s ease, color 0.3s ease;
+        }
+        .social-media img {
+            width: 50px;
+            height: 50px;
+        }
+        .social-media a:hover img {
+            transform: scale(1.2);
+            filter: brightness(1.2);
+        }
+        footer {
+            background: #1d3557;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+        }
+        .cv-section {
+            margin: 2rem auto;
+            max-width: 800px;
+            background: #1d3557;
+            padding: 2rem;
+            border-radius: 10px;
+            color: white;
+            text-align: left;
+        }
+        .cv-section h3 {
+            margin-bottom: 1rem;
+            color: #f4a261;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="C:\Users\theSemiKO\Desktop\Blog\thesemikologo.jpg" alt="SemiKO Logo">
+        <h1>SemiKO</h1>
+        <p>Kişisel Blog ve Projelerim</p>
+    </header>
+    <nav>
+        <a href="#hakkimda">Hakkımda</a>
+        <a href="#cv">Özgeçmişim</a>
+        <a href="#projelerim">Projelerim</a>
+    </nav>
+    <div class="content" id="hakkimda">
+        <h2>Hakkımda</h2>
+        <p>Merhaba, ben Semih Keleşoğlu. Yazılım geliştirme, oyun ve sosyal medya projeleri üzerine çalışıyorum. 
+           Projelerim ve sosyal medya hesaplarıma göz atabilirsiniz.</p>
+    </div>
+    <div class="social-media">
+        <a href="https://www.youtube.com/@theSemiKO" target="_blank">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/4/42/YouTube_icon_%282013-2017%29.png" alt="YouTube">
+        </a>
+        <a href="https://www.instagram.com/thesemiko" target="_blank">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram">
+        </a>
+    </div>
+    <div class="cv-section" id="cv">
+        <h3>Özgeçmişim</h3>
+        <p>Buraya özgeçmiş bilgileriniz gelecek. Örneğin:</p>
+        <ul>
+            <li>Ad Soyad: Semih Keleşoğlu</li>
+            <li>Eğitim: Bilgisayar Mühendisliği, 3. Sınıf</li>
+            <li>İlgi Alanları: Yazılım Geliştirme, Oyun, Sosyal Medya</li>
+            <li>Deneyim: Mobil uygulama geliştirme, oyun botları, web tasarım.</li>
+        </ul>
+    </div>
+    <footer>
+        <p>&copy; 2025 SemiKO. Tüm hakları saklıdır.</p>
+    </footer>
+</body>
+</html>
